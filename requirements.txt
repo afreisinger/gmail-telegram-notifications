@@ -1,0 +1,5 @@
+PyYAML
+pandas
+requests
+tabulate
+pylint
