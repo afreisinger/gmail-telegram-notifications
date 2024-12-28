@@ -1,5 +1,6 @@
 {
     "emails": [
-       "info@charito.com.ar"
+      "example1@example.com",
+      "example2@example.com"
     ]
-    }
+}

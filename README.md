@@ -126,6 +126,16 @@ This script will:
          ]
        }
        ```
+    - **Emails to download attachments**:
+      - Create a file named `attachment_senders.json` with the email addresses to download attachment, structured like this:
+       ```json
+       {
+         "emails": [
+           "example3@example.com",
+           "example4@example.com"
+         ]
+       }
+       ```
 
 ## Usage
 
@@ -147,6 +157,6 @@ This script will:
 ## Output:
 - The script will print a summary of deleted and notified emails to the terminal.
 - A Telegram message will be sent with a list of new emails matching the criteria in `notify_email_list.json`.
-
+- Downloads attachments into `./attachments` folder.
 
 
