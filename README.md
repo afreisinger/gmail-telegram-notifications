@@ -6,6 +6,7 @@ This script will:
 
 - Delete emails from `delete_email_list.json` from your Gmail account.
 - Send a Telegram notification summarizing emails from `notify_email_list.json`.
+- Download attachments files from `attachments_senders.json`.
 
 ## Table of Contents
 - [Requirements](#requirements)
